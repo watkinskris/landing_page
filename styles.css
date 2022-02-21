@@ -1,0 +1,12 @@
+body{
+    min-height: 100vh;
+}
+header {
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
+}
