@@ -1,5 +1,7 @@
 body{
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 header {
     display: flex;
@@ -33,4 +35,15 @@ img {
     height: 40px;
     width: 40px;
     margin-left: 30px;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.leo-image{
+    height: 320px;
+    width:  270px;
 }
