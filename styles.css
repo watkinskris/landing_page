@@ -5,6 +5,8 @@ body{
 }
 header {
     display: flex;
+    background-color: #31244A;
+    color: #AFA8BA;
 }
 
 .image-section{
@@ -43,7 +45,38 @@ img {
     flex: 1;
 }
 
+.section-1{
+    display: flex;
+}
+
+.first-section-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #B5A3D2;
+    padding: 50px;
+    width: 50%;
+    color: #31244A;
+    font-family: "Roboto";
+
+}
+h1{
+    margin-bottom: 5px;
+}
+
+button{
+    width: 100px;
+    background-color: #FEF6FF;
+    border-radius: 4px;
+    border: none;
+    padding: 5px;
+    margin-top: 10px;
+} 
+
+
 .leo-image{
     height: 320px;
     width:  270px;
+    margin-left: 100px;
+    
 }
