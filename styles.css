@@ -5,8 +5,32 @@ header {
     display: flex;
 }
 
+.image-section{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-family: "Redressed", sans-serif ;
+    font-size: 25px;
+    margin-left: 50px;
+}
+
+
 ul {
     list-style-type: none;
     display: flex;
     margin-left: auto;
+    padding-right: 10px;
+    
+}
+
+li{
+    margin: 10px;
+    font-family: "Redressed";
+    font-size: 20px;
+}
+
+img {
+    height: 40px;
+    width: 40px;
+    margin-left: 30px;
 }
