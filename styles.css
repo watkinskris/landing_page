@@ -87,12 +87,19 @@ button{
     display:flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    
 }
 .section-2{
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
+}
+figure{
+    text-align: center;
+}
+figcaption{
+    margin-top: 10px;
 }
 
 img{ 
