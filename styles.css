@@ -100,6 +100,7 @@ figure{
 }
 figcaption{
     margin-top: 10px;
+    font-family: "Roboto";
 }
 
 img{ 
@@ -108,3 +109,27 @@ img{
     border: 2px solid #31244A;
     border-radius: 20%;
  }
+
+ .section-3
+ {
+    background-color: #FEF6FF;
+    min-height: 200px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.quote{
+    width: 60%;
+    font-size: 30px;
+    font-family: "Redressed", sans-serif; 
+}
+blockquote{
+    text-align: center;
+}
+.author{
+    font-size: 20px;
+    text-align: right;
+    font-style: italic;
+}
