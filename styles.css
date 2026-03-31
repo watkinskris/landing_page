@@ -1,7 +1,10 @@
 body{
     min-height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
 header {
     display: flex;
@@ -95,12 +98,18 @@ button{
     align-items: center;
     gap: 20px;
 }
+.section-2 h2 {
+    color: #31244A;
+    font-family: "Roboto";
+
+}
 figure{
     text-align: center;
 }
 figcaption{
     margin-top: 10px;
     font-family: "Roboto";
+    color: #31244A;
 }
 
 img{ 
@@ -110,26 +119,59 @@ img{
     border-radius: 20%;
  }
 
- .section-3
+ .section-3, .section-4
  {
-    background-color: #FEF6FF;
-    min-height: 200px;
+    
+    height: 200px;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
+.section-3{
+    background-color:#FEF6FF ;
+}
 .quote{
     width: 60%;
     font-size: 30px;
-    font-family: "Redressed", sans-serif; 
+    font-family: "Redressed", sans-serif;
+    color: #31244A; 
 }
 blockquote{
     text-align: center;
+    font-weight: 400;
 }
 .author{
     font-size: 20px;
     text-align: right;
     font-style: italic;
+    font-weight: 900;
 }
+.mailing-list{
+    width: 70%;
+    height: 50%;
+    background-color: #B5A3D2;
+    color: #31244A;
+    font-family: "Roboto";
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mailing-title{ 
+    text-emphasis: bold;
+    font-size: 25px;
+
+}
+footer{
+    height: 80px;
+    background-color: #31244A;
+    color: #AFA8BA;
+    font-family: "Redressed", sans-serif ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
